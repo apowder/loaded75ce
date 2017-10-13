@@ -1,0 +1,24 @@
+User-Agent: *
+Allow: /
+Disallow: /account/edit
+Disallow: /checkout/shipping
+Disallow: /account/history
+Disallow: /checkout/payment
+Disallow: /checkout/shipping-address
+Disallow: /checkout/confirmation
+Disallow: /account/address-book-process
+Disallow: /account
+Disallow: /account/login
+Disallow: /account/create
+Disallow: /checkout/payment-address
+Disallow: /account/create-success
+Disallow: /checkout/process
+Disallow: /account/password-forgotten
+Disallow: /account/history-info
+Disallow: /account/logoff
+Disallow: /checkout/success
+Disallow: /account/notifications
+Disallow: /account/address-book
+Disallow: /shopping-cart
+Disallow: /*language=*
+#SITEMAP#

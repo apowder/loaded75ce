@@ -1,0 +1,1 @@
+<a target="_blank" href="{$link}" class="btn-2">{$smarty.const.ORDER_PRINTABLE}</a>

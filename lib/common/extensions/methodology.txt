@@ -1,0 +1,7 @@
+Copyright (c) 2005 Holbi Group LTD
+
+Basic Provisions:
+1. All extensions must be placed in separate folder.
+2. The class file name must be the same as the folder name.
+3. Templates must be placed in folder 'views'.
+

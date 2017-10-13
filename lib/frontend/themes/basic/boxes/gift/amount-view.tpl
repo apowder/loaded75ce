@@ -1,0 +1,1 @@
+<div class="amount-view">0</div>

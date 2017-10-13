@@ -1,0 +1,230 @@
+/* ========================================================
+*
+* Melon - Flat & Responsive Admin Template
+*
+* ========================================================
+*
+* File: login.css
+* Description: Login template styling
+* Version: 1.0
+*
+* ======================================================== */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.login {
+  background-color: #f9f9f9;
+	padding:0 0 84px;
+	position:relative;
+  /* Helper */
+
+}
+.login img{max-width: 100%;height: auto;}
+.login .logo,
+.login .single-sign-on,
+.login .footer {
+  margin: 0 auto;
+  text-align: center;
+}
+.login .logo {
+  padding: 15px;
+  font-size: 23px;
+}
+.login .box {
+  background-color: #fff;
+  max-width: 350px;
+  margin: 0 auto;
+  border: 1px solid #d9d9d9;
+  border-top: 5px solid #014890;
+  /* * * * * * * * * * * *
+		 * Inner Box
+		 * * * * * * * * * * * */
+
+}
+.login .box .content {
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.login .box form {
+  padding: 0;
+  margin: 0;
+}
+.login .box .form-title {
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 25px;
+}
+.login .box .form-group {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.login .box .form-actions {
+  background-color: #fff;
+  border-top: none;
+  padding: 10px 0;
+  margin: 0;
+  text-align: center;
+}
+.login .box .input-icon input {
+  border-left: 2px solid #4d7496;
+}
+.login .box .has-error .input-icon input {
+  border-left-color: #b94a48;
+}
+.login .box .has-success .input-icon input {
+  border-left-color: #468847;
+}
+.login .box .checkbox {
+  margin-top: 7px;
+}
+.login .box .inner-box {
+  background-color: #f9f9f9;
+  border-top: 1px solid #c0c0c0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+}
+.login .box .inner-box .content {
+  padding: 12px 30px;
+  text-align: center;
+}
+.login .box .inner-box a {
+  color: #555555;
+  font-size: 12px;
+  font-weight: 600;
+}
+.login .box .inner-box a:hover {
+  text-decoration: none;
+  color: #4d7496;
+}
+.login .box .inner-box .close {
+  font-size: 12px;
+  margin-top: -3px;
+  margin-right: -20px;
+}
+.login .box .inner-box .close.hide-default {
+  display: none;
+}
+.login .box .inner-box form {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.login .box .inner-box a + form {
+  margin-top: 20px;
+}
+.login .box .inner-box .form-group {
+  margin-bottom: 10px;
+}
+.login .box .inner-box .forgot-password-done {
+  padding: 10px 0;
+}
+.login .box .inner-box .forgot-password-done .success-icon,
+.login .box .inner-box .forgot-password-done .danger-icon {
+  display: block;
+  font-size: 30px;
+  padding: 15px;
+  padding-top: 0;
+}
+.login .box .inner-box .forgot-password-done .success-icon {
+  color: #94b86e;
+}
+.login .box .inner-box .forgot-password-done .danger-icon {
+  color: #e25856;
+}
+.login .box .inner-box .forgot-password-done span {
+  font-weight: 600;
+}
+.login .single-sign-on {
+  width: 350px;
+  padding: 15px 0;
+  opacity: 0.5;
+  -webkit-transition: opacity 200ms ease-out;
+  -moz-transition: opacity 200ms ease-out;
+  -o-transition: opacity 200ms ease-out;
+  transition: opacity 200ms ease-out;
+}
+.login .single-sign-on:hover {
+  opacity: 1;
+}
+.login .single-sign-on span {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
+  display: block;
+  color: #888888;
+}
+.login .single-sign-on .btn i {
+  padding-right: 5px;
+}
+.login .footer a {
+  font-size: 13px;
+  color: #6f6f6f;
+}
+.login .footer a:hover {
+  text-decoration: none;
+  color: #4d7496;
+}
+.login .spacing-top {
+  padding-top: 7px !important;
+}
+.header{padding:15px 4%;margin:0 0 26px;background:#eceeee;border-bottom:1px solid #d0cece;box-shadow: 0px 1px 5px 0px rgba(54,50,50,0.1);}
+.after:after{display:block;clear:both;content:'';}
+.phone span.ico {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    font-family: 'Open Sans Condensed',sans-serif;
+    color: #ac2525;
+    font-size: 34px;
+    line-height: 28px;
+    padding-left: 24px;
+		font-weight:bold;
+}
+.phone span.ico:before {
+    content: '';
+    height: 30px;
+    width: 24px;
+    float: left;
+    margin-left: -24px;
+    background: url(../img/phone.png) 0 50% no-repeat;
+}
+.phone, #live-chat-script{float:left;}
+#live-chat-script{margin:0 0 0 28px;}
+.header_right{float:right;list-style:none;padding:9px 0 0;margin:0;}
+.header_right li {float:left;}
+.header_right li + li{padding:0 0 0 18px;border-left:1px solid #cacbcb;margin:0 0 0 18px;}
+.header_right li  a{font-family: 'Open Sans', sans-serif;font-size:14px;color:#2f2f2f;line-height:14px;display:inline-block;}
+.login .btn-primary{
+  background: #008de9; /* Old browsers */
+  background: -moz-linear-gradient(top, #008de9 0%, #0078e4 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #008de9 0%,#0078e4 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #008de9 0%,#0078e4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008de9', endColorstr='#0078e4',GradientType=0 );
+border-radius:3px;
+border:none;
+font-family: 'Open Sans', sans-serif;font-size:14px;
+}
+.login .footer {padding:0 4%;position:absolute;bottom:0;left:0;width:100%;}
+.login .footer ul{list-style:none;padding:15px 0;margin:0;border-top:1px solid #d9d9d9;display:table;width:100%;}
+.login .footer ul li{display:table-cell;width: 33%;}
+.login .footer ul li:nth-child(1){text-align:left;}
+.login .footer ul li:nth-child(2){text-align:center;}
+.login .footer ul li, .login .footer ul li a{font-family: 'Open Sans', sans-serif;font-size:13px;color:#757575;}
+.footer a{color:#0077e4;}
+@media(max-width:1400px){
+.login{padding:0 0 120px;}
+}
+
